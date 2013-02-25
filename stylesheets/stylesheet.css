@@ -579,3 +579,9 @@ footer .owner p a {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+p.author
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
