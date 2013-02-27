@@ -602,8 +602,10 @@ p.author
     text-align: center;
 }
 
-#contact_me
+#contact_me iframe
 {
+    margin: auto;
+    display: block;
 }
 
 #contactBtn

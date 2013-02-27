@@ -10,8 +10,8 @@ $(document).ready(function(){
     $("#contact_me").dialog({
         title: "Contact Us",
         autoOpen: false,
-        width: 560,
-        height: 570,
+        width: 580,
+        height: 580,
         resizable: false,
         close: function () {
             $("#contact_me iframe").attr("src", "http://contactme.com/512b03a61953550002009ef8/embed");
