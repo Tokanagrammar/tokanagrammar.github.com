@@ -1,6 +1,24 @@
 (function($) {
 $(document).ready(function(){
 
+    //contact me
+    $("#contactBtn a").bind("click", function () {
+        $("#contact_me").dialog("open");
+    });
+    
+    $("#contact_me").hide(0);
+    $("#contact_me").dialog({
+        title: "Contact Us",
+        autoOpen: false,
+        width: 560,
+        height: 570,
+        resizable: false,
+        close: function () {
+            $("#contact_me iframe").attr("src", "http://contactme.com/512b03a61953550002009ef8/embed");
+        }        
+    });
+
+
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
@@ -49,4 +67,5 @@ $(document).ready(function(){
     return false;
   })
 });
+
 })(jQuery)

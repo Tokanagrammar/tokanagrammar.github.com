@@ -602,9 +602,19 @@ p.author
     text-align: center;
 }
 
-#contact_iframe
+#contact_me
+{
+}
+
+#contactBtn
 {
     position: fixed;
-    left: 0;
     top: 50px;
+    left: 0;
+}
+
+#contactBtn img
+{
+    width: 80px;
+    height: 80px;
 }
