@@ -6,7 +6,6 @@ $(document).ready(function(){
         $("#contact_me").dialog("open");
     });
     
-    $("#contact_me").hide(0);
     $("#contact_me").dialog({
         title: "Contact Us",
         autoOpen: false,
@@ -18,7 +17,8 @@ $(document).ready(function(){
         }        
     });
 
-
+    $("#contact_me").hide();
+    
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
