@@ -610,6 +610,8 @@ p.author
 #contactBtn
 {
     position: fixed;
+    visible: false;
+    z-index:100;
     top: 10px;
     right: 0;
 }
