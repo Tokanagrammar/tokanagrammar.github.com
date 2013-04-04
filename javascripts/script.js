@@ -1,5 +1,7 @@
 (function ($) {
 $(document).ready(function(){
+    alert('get here');
+    
     //contact me
     $("#contactBtn a").bind("click", function () {
         $("#contact_me").dialog("open");
@@ -17,6 +19,16 @@ $(document).ready(function(){
     });
 
     $("#contact_me").hide();
+    
+    //download
+    $("#download").bind("click", function () {
+        var res = window.confirm("By downloading the package you will have automatically agreed to all the terms and conditions that come with it.\nDo you want to continue?");
+        if (res = true)
+        {
+            window.open('../dowloads/tokanagrammar.zip');
+        }
+        
+    });
     
   // putting lines by the pre blocks
   $("pre").each(function(){
