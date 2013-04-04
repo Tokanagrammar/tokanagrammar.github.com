@@ -1,3 +1,4 @@
+(function ($) {
 $(document).ready(function(){
     //contact me
     $("#contactBtn a").bind("click", function () {
@@ -65,3 +66,4 @@ $(document).ready(function(){
     return false;
   })
 });
+})(jQuery);
