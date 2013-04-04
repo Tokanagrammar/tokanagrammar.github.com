@@ -1,7 +1,4 @@
-(function($) {
 $(document).ready(function(){
-    jQuery.noConflict();
-
     //contact me
     $("#contactBtn a").bind("click", function () {
         $("#contact_me").dialog("open");
@@ -68,5 +65,3 @@ $(document).ready(function(){
     return false;
   })
 });
-
-})(jQuery)
